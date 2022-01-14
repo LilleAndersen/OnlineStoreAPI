@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/little/Documents/RiderProjects/user_order_database/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj": {}
+    "/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj": {}
   },
   "projects": {
-    "/home/little/Documents/RiderProjects/user_order_database/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj": {
+    "/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/little/Documents/RiderProjects/user_order_database/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj",
+        "projectUniqueName": "/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj",
         "projectName": "School Database Users and Orders",
-        "projectPath": "/home/little/Documents/RiderProjects/user_order_database/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj",
+        "projectPath": "/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj",
         "packagesPath": "/home/little/.nuget/packages/",
-        "outputPath": "/home/little/Documents/RiderProjects/user_order_database/School Database Users and Orders/School Database Users and Orders/obj/",
+        "outputPath": "/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/little/.nuget/NuGet/NuGet.Config"
