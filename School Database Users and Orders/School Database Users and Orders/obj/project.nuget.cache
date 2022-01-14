@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dFUQjIxRwpzrxrps/MPyvwhGn3JoabT7uiCZmgyd3cu/VMgec1ZTiYAACvQvsD6NzKBnFiiIQLNU2EiztpP6rw==",
+  "success": true,
+  "projectFilePath": "/home/little/Documents/RiderProjects/user_order_database/School Database Users and Orders/School Database Users and Orders/School Database Users and Orders.csproj",
+  "expectedPackageFiles": [
+    "/home/little/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/little/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/little/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/little/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/little/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/little/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
