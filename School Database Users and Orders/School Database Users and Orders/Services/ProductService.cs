@@ -13,7 +13,7 @@ public class ProductService : IProductService
     {
         var product = new Product();
 
-        using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["connectionString"].ConnectionString);
+        using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
         const string commandString = "select * from user_order_database.products where id = @id";
         var command = new MySqlCommand(commandString, connection);
 
@@ -28,7 +28,7 @@ public class ProductService : IProductService
             product.Name = (string) reader["name"];
             product.Price = (float) reader["price"];
             product.Stock = (int) reader["stock"];
-            product.ImageUrl = (string) reader["image_url"];
+            product.ImageUrl = (string) reader["image"];
         }
 
         return product;
@@ -38,7 +38,7 @@ public class ProductService : IProductService
     {
         var list = new List<Product>();
 
-        using var connection = new MySqlConnection("server=192.168.1.10;uid=lilly;pwd=root;database=user_order_database");
+        using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
         const string commandString = "select * from user_order_database.products";
         var command = new MySqlCommand(commandString, connection);
         

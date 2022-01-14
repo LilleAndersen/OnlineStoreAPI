@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="Web.config">
+      <None Include="App.config">
         <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
