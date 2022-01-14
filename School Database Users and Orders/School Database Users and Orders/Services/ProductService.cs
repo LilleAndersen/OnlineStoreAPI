@@ -2,6 +2,7 @@ using Microsoft.Win32.SafeHandles;
 using MySqlConnector;
 using School_Database_Users_and_Orders.Interfaces;
 using School_Database_Users_and_Orders.Models;
+using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace School_Database_Users_and_Orders.Services;
 
@@ -12,7 +13,7 @@ public class ProductService : IProductService
     {
         var product = new Product();
 
-        using var connection = new MySqlConnection("server=10.100.0.125;uid=soni;pwd=Passord01;database=online_store");
+        using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["connectionString"].ConnectionString);
         const string commandString = "select * from user_order_database.products where id = @id";
         var command = new MySqlCommand(commandString, connection);
 
