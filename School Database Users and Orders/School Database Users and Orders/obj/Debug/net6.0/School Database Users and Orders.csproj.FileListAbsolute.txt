@@ -1,0 +1,27 @@
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/appsettings.Development.json
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/appsettings.json
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/School Database Users and Orders
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/School Database Users and Orders.deps.json
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/School Database Users and Orders.runtimeconfig.json
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/School Database Users and Orders.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/ref/School Database Users and Orders.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/School Database Users and Orders.pdb
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.csproj.AssemblyReference.cache
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.GeneratedMSBuildEditorConfig.editorconfig
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.AssemblyInfoInputs.cache
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.AssemblyInfo.cs
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.csproj.CoreCompileInputs.cache
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.MvcApplicationPartsAssemblyInfo.cs
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.MvcApplicationPartsAssemblyInfo.cache
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/staticwebassets.build.json
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/staticwebassets.development.json
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/scopedcss/bundle/School Database Users and Orders.styles.css
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.csproj.CopyComplete
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/ref/School Database Users and Orders.dll
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.pdb
+/home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/obj/Debug/net6.0/School Database Users and Orders.genruntimeconfig.cache

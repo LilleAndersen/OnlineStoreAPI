@@ -1,15 +1,24 @@
 using Microsoft.AspNetCore.Mvc;
+using School_Database_Users_and_Orders.Interfaces;
 using School_Database_Users_and_Orders.Models;
 
 namespace School_Database_Users_and_Orders.Controllers;
 
 [ApiController]
-[Route("product")]
+[Route("products")]
 public class ProductController : Controller
 {
+
+    private readonly IProductService _productService;
+
+    public ProductController(IProductService productService)
+    {
+        _productService = productService;
+    }
+
     [HttpGet]
     public IEnumerable<Product> GetAllProducts()
     {
-        return new List<Product>();
+        return _productService.GetAllProducts();
     }
 }
