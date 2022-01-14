@@ -17,6 +17,12 @@ public class ProductController : Controller
     }
 
     [HttpGet]
+    public Product GetProduct(int id)
+    {
+        return _productService.GetProduct(id);
+    }
+    
+    [HttpGet("all")]
     public IEnumerable<Product> GetAllProducts()
     {
         return _productService.GetAllProducts();

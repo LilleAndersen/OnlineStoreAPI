@@ -7,6 +7,32 @@ namespace School_Database_Users_and_Orders.Services;
 
 public class ProductService : IProductService
 {
+
+    public Product GetProduct(int id)
+    {
+        var product = new Product();
+
+        using var connection = new MySqlConnection("server=10.100.0.125;uid=soni;pwd=Passord01;database=online_store");
+        const string commandString = "select * from user_order_database.products where id = @id";
+        var command = new MySqlCommand(commandString, connection);
+
+        command.Parameters.AddWithValue("@id", id);
+
+        connection.Open();
+
+        using var reader = command.ExecuteReader();
+        while (reader.Read())
+        {
+            product.Id = (int) reader["id"];
+            product.Name = (string) reader["name"];
+            product.Price = (float) reader["price"];
+            product.Stock = (int) reader["stock"];
+            product.ImageUrl = (string) reader["image_url"];
+        }
+
+        return product;
+    }
+    
     public IEnumerable<Product> GetAllProducts()
     {
         var list = new List<Product>();
