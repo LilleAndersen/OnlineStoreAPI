@@ -39,3 +39,44 @@
 /home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/App.config
 /home/little/Documents/GitHub/OnlineStoreAPI/School Database Users and Orders/School Database Users and Orders/bin/Debug/net6.0/School Database Users and Orders.dll.config
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\ref\School Database Users and Orders.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.pdb
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\appsettings.json
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\App.config
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.exe
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.dll.config
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.deps.json
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.runtimeconfig.json
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\ref\School Database Users and Orders.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.pdb
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.csproj.AssemblyReference.cache
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.AssemblyInfoInputs.cache
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.AssemblyInfo.cs
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\scopedcss\bundle\School Database Users and Orders.styles.css
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.csproj.CopyComplete
+C:\Users\tobia\Min disk\Github Repos\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.genruntimeconfig.cache
