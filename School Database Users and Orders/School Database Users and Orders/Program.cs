@@ -11,10 +11,20 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+
+builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
+{
+    builder.AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+}));
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
+app.UseCors("CorsPolicy");
+
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

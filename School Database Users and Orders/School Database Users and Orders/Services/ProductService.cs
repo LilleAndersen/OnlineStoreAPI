@@ -14,7 +14,7 @@ public class ProductService : IProductService
         var product = new Product();
 
         using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
-        const string commandString = "select * from user_order_database.products where id = @id";
+        const string commandString = "select * from user_order_database.products where product_id = @id";
         var command = new MySqlCommand(commandString, connection);
 
         command.Parameters.AddWithValue("@id", id);
@@ -24,10 +24,11 @@ public class ProductService : IProductService
         using var reader = command.ExecuteReader();
         while (reader.Read())
         {
-            product.Id = (int) reader["id"];
+            product.Id = (int) reader["product_id"];
             product.Name = (string) reader["name"];
             product.Price = (float) reader["price"];
             product.Stock = (int) reader["stock"];
+            product.Description = (string) reader["description"];
             product.ImageUrl = (string) reader["image"];
         }
 
@@ -49,10 +50,11 @@ public class ProductService : IProductService
         {
             list.Add(new Product
             {
-                Id = (int) reader["id"],
+                Id = (int) reader["product_id"],
                 Name = (string) reader["name"],
                 Price = (float) reader["price"],
                 Stock = (int) reader["stock"],
+                Description = (string) reader["description"],
                 ImageUrl = (string) reader["image"]
             });
         }

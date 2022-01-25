@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tobia\\Min disk\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {}
+    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tobia\\Min disk\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {
+    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tobia\\Min disk\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
+        "projectUniqueName": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
         "projectName": "School Database Users and Orders",
-        "projectPath": "C:\\Users\\tobia\\Min disk\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
-        "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tobia\\Min disk\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\obj\\",
+        "projectPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
+        "packagesPath": "C:\\Users\\Little\\.nuget\\packages\\",
+        "outputPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Little\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Little\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

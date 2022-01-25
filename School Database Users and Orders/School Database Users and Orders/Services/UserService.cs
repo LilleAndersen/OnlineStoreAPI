@@ -27,10 +27,13 @@ public class UserService : IUserService
             user.LastName = (string) reader["last_name"];
             user.Email = (string) reader["email"];
             user.Number = (int) reader["phone_number"];
-            user.Username = (string) reader["credentials_username"];
-            user.Password = (string) reader["password"];
-            user.Token = (string) reader["token"];
-            user.AccessLevel = (int) reader["access_level"];
+            user.Credentials = new Credentials
+            {
+                Username = (string) reader["credentials_username"],
+                Password = (string) reader["password"],
+                Token = (string) reader["token"],
+                AccessLevel = (int) reader["access_level"]
+            };
         }
 
         return user;
@@ -56,10 +59,13 @@ public class UserService : IUserService
                 LastName = (string) reader["last_name"],
                 Email = (string) reader["email"],
                 Number = (int) reader["phone_number"],
-                Username = (string) reader["credentials_username"],
-                Password = (string) reader["password"],
-                Token = (string) reader["token"],
-                AccessLevel = (int) reader["access_level"]
+                Credentials = new Credentials
+                {
+                    Username = (string) reader["credentials_username"],
+                    Password = (string) reader["password"],
+                    Token = (string) reader["token"],
+                    AccessLevel = (int) reader["access_level"]
+                }
             });
         }
 
