@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {}
+    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\skootskoot2electricboogaloo\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {}
   },
   "projects": {
-    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {
+    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\skootskoot2electricboogaloo\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
+        "projectUniqueName": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\skootskoot2electricboogaloo\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
         "projectName": "School Database Users and Orders",
-        "projectPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
+        "projectPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\skootskoot2electricboogaloo\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
         "packagesPath": "C:\\Users\\Little\\.nuget\\packages\\",
-        "outputPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\obj\\",
+        "outputPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\skootskoot2electricboogaloo\\School Database Users and Orders\\School Database Users and Orders\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Little\\AppData\\Roaming\\NuGet\\NuGet.Config"
