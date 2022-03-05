@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\fakeskootskoot\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {}
+    "C:\\Users\\henri\\Documents\\GitHub\\Little-OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {}
   },
   "projects": {
-    "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\fakeskootskoot\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {
+    "C:\\Users\\henri\\Documents\\GitHub\\Little-OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\fakeskootskoot\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\Documents\\GitHub\\Little-OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
         "projectName": "School Database Users and Orders",
-        "projectPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\fakeskootskoot\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
-        "packagesPath": "C:\\Users\\Little\\.nuget\\packages\\",
-        "outputPath": "G:\\My Drive\\Github Repos\\OnlineStoreAPI\\fakeskootskoot\\School Database Users and Orders\\School Database Users and Orders\\obj\\",
+        "projectPath": "C:\\Users\\henri\\Documents\\GitHub\\Little-OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\School Database Users and Orders.csproj",
+        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henri\\Documents\\GitHub\\Little-OnlineStoreAPI\\School Database Users and Orders\\School Database Users and Orders\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Little\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -61,6 +61,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
+              "version": "[6.0.0, 6.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-arm",
+              "version": "[6.0.0, 6.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-arm",
+              "version": "[6.0.0, 6.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +83,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Little\\.dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-arm": {
+          "#import": []
         }
       }
     }
