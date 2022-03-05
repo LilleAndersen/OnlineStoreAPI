@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using School_Database_Users_and_Orders.Interfaces;
 using School_Database_Users_and_Orders.Models;
+using School_Database_Users_and_Orders.Models.Requests;
 
 namespace School_Database_Users_and_Orders.Controllers;
 
@@ -33,9 +34,9 @@ public class OrderController : Controller
 
     // HTTP Get Request which makes a new order based on user id, address id and total price of order
     [HttpPost("new")]
-    public bool CreateOrder(int userId, int addressId, float totalPrice)
+    public bool CreateOrder(int id, int addressId, float totalPrice)
     {
-        return _orderService.CreateOrder(userId, addressId, totalPrice);
+        return _orderService.CreateOrder(id, addressId, totalPrice);
     }
 
     // HTTP Post Request which adds a specified product to order
@@ -51,6 +52,10 @@ public class OrderController : Controller
     {
         return _orderService.UpdateOrderStatus(status, id);
     }
-    
-    
+
+    [HttpPost("new/addresses")]
+    public int CreateAddress([FromBody] CreateAddressRequest payload)
+    {
+        return _orderService.CreateAddress(payload.AddressName, payload.AddressLine, payload.PostalNumber, payload.Country);
+    }
 }

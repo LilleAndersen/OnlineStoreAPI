@@ -7,7 +7,9 @@ public interface IOrderService
 {
     public Order GetOrder(int id);
     public IEnumerable<Order> GetUserOrders(int id);
-    public bool CreateOrder(int userId, int addressId, float totalPrice);
+    public bool CreateOrder(int id, int addressId, float totalPrice);
     public bool AddProductToOrder(int orderId, int productId, int quantity);
     public bool UpdateOrderStatus(string status, int id);
+
+    public int CreateAddress(string addressName, string addressLine, string postalNumber, string country);
 }

@@ -1,6 +1,7 @@
 ﻿using MySqlConnector;
 using School_Database_Users_and_Orders.Interfaces;
 using School_Database_Users_and_Orders.Models;
+using School_Database_Users_and_Orders.Models.Requests;
 using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace School_Database_Users_and_Orders.Services;
@@ -196,14 +197,14 @@ public class OrderService : IOrderService
     }
 
     // Creates an order based on the user id, address id and totalprice
-    public bool CreateOrder(int userId, int addressId, float totalPrice)
+    public bool CreateOrder(int id, int addressId, float totalPrice)
     {
         using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
-        const string commandString = "insert into user_order_database.orders (user_uid, address_id, total_price) values (@userId, @addressId, @totalPrice)"; // The SQL statement itself, what gets executed in the database
+        const string commandString = "insert into user_order_database.orders (user_uid, address_id, total_price) values (@id, @addressId, @totalPrice)"; // The SQL statement itself, what gets executed in the database
         var command = new MySqlCommand(commandString, connection);
 
         // Variables for the SQL statement, you put @user in the SQL statement and define it outside the statement
-        command.Parameters.AddWithValue("@userId", userId);
+        command.Parameters.AddWithValue("@id", id);
         command.Parameters.AddWithValue("@addressId", addressId);
         command.Parameters.AddWithValue("@totalPrice", totalPrice);
 
@@ -276,5 +277,45 @@ public class OrderService : IOrderService
         }
 
         return true;
+    }
+
+    public int CreateAddress(string addressName, string addressLine, string postalNumber, string country)
+    {
+        var Address = new int();
+        
+        using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+        const string commandString = "insert into user_order_database.addresses (address_name, address_line, country, postal_number) values (@addressName, @addressLine, @country, @postalNumber)"; // The SQL statement itself, what gets executed in the database
+        const string addressIdCommandString = "select user_order_database.addresses.address_id from user_order_database.addresses where addresses.address_line = @addressLine and addresses.address_name = @addressName and addresses.country = @country and addresses.postal_number = @postalNumber"; // The SQL statement itself, what gets executed in the database
+        var command = new MySqlCommand(commandString, connection);
+        var addressIdcommand = new MySqlCommand(addressIdCommandString, connection);
+
+        // Variables for the SQL statement, you put @user in the SQL statement and define it outside the statement
+        command.Parameters.AddWithValue("@addressLine", addressLine);
+        command.Parameters.AddWithValue("@addressName", addressName);
+        command.Parameters.AddWithValue("@postalNumber", postalNumber);
+        command.Parameters.AddWithValue("@country", country);
+        
+        addressIdcommand.Parameters.AddWithValue("@addressLine", addressLine);
+        addressIdcommand.Parameters.AddWithValue("@addressName", addressName);
+        addressIdcommand.Parameters.AddWithValue("@postalNumber", postalNumber);
+        addressIdcommand.Parameters.AddWithValue("@country", country);
+
+        try
+        {
+            connection.Open();
+            command.ExecuteNonQuery();
+            using var reader = addressIdcommand.ExecuteReader();
+            
+            while (reader.Read())
+            {
+                Address = (int) reader[0];
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+
+        return Address;
     }
 }
