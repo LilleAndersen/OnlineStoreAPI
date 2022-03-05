@@ -166,4 +166,38 @@ public class UserService : IUserService
         
         return true;
     }
+
+    public bool UpdateUser(string payloadToken, string? payloadFirstName, string? payloadLastName, string? payloadEmail, int? payloadNumber, string? payloadPfp)
+    {
+        var user = GetUser(payloadToken);
+
+        payloadFirstName ??= user.FirstName;
+        payloadLastName ??= user.LastName;
+        payloadEmail ??= user.Email;
+        payloadNumber ??= user.Number;
+        payloadPfp ??= user.Pfp;
+
+        using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+        const string commandString = "update user_order_database.user set email = @email , phone_number = @number , first_name = @firstname , last_name = @lastname , pfp = @pfp where credentials_username = @username"; // The SQL statement itself, what gets executed in the database
+        var command = new MySqlCommand(commandString, connection);
+        
+        command.Parameters.AddWithValue("@firstName", payloadFirstName);
+        command.Parameters.AddWithValue("@lastName", payloadLastName);
+        command.Parameters.AddWithValue("@username", user.Credentials.Username);
+        command.Parameters.AddWithValue("@email", payloadEmail);
+        command.Parameters.AddWithValue("@number", payloadNumber);
+        command.Parameters.AddWithValue("@pfp", payloadPfp);
+        
+        try
+        {
+            connection.Open();
+            command.ExecuteNonQuery();
+            return true;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return false;
+        }
+    }
 }

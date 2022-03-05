@@ -9,4 +9,6 @@ public interface IUserService
     public IEnumerable<User> GetAllUsers();
     public bool CreateUser(string firstName, string lastName, string username, string email, int phoneNumber, string pfp, string password, int accessLevel);
     public bool DeleteUser(string username);
+
+    public bool UpdateUser(string payloadToken, string? payloadFirstName, string? payloadLastName, string? payloadEmail, int? payloadNumber, string? payloadPfp); 
 }

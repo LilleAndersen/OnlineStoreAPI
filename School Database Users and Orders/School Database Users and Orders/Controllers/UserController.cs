@@ -46,4 +46,11 @@ public class UserController : Controller
     {
         return _userService.DeleteUser(username);
     }
+
+    [HttpPost("update")]
+    public bool UpdateUser([FromBody] UpdateUserRequest payload)
+    {
+        return _userService.UpdateUser(payload.Token, payload.FirstName, payload.LastName, payload.Email,
+            payload.Number, payload.Pfp);
+    }
 }
