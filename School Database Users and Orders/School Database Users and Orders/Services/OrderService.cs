@@ -197,16 +197,24 @@ public class OrderService : IOrderService
     }
 
     // Creates an order based on the user id, address id and totalprice
-    public bool CreateOrder(int id, int addressId, float totalPrice)
+    public int CreateOrder(int id, int addressId, float totalPrice)
     {
+        var Order = new int();
+        
         using var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
         const string commandString = "insert into user_order_database.orders (user_uid, address_id, total_price) values (@id, @addressId, @totalPrice)"; // The SQL statement itself, what gets executed in the database
         var command = new MySqlCommand(commandString, connection);
 
+        const string orderIdCommandString = "select user_order_database.orders.id from user_order_database.orders where orders.address_id = @addressId and orders.total_price = @totalPrice"; // The SQL statement itself, what gets executed in the database
+        var orderIdCommand = new MySqlCommand(orderIdCommandString, connection);
+        
         // Variables for the SQL statement, you put @user in the SQL statement and define it outside the statement
         command.Parameters.AddWithValue("@id", id);
         command.Parameters.AddWithValue("@addressId", addressId);
         command.Parameters.AddWithValue("@totalPrice", totalPrice);
+        
+        orderIdCommand.Parameters.AddWithValue("@addressId", addressId);
+        orderIdCommand.Parameters.AddWithValue("@totalPrice", totalPrice);
 
 
         // Tries the connection and logs the error if any are caught.
@@ -214,14 +222,19 @@ public class OrderService : IOrderService
         {
             connection.Open();
             command.ExecuteNonQuery();
+            using var reader = orderIdCommand.ExecuteReader();
+            
+            while (reader.Read())
+            {
+                Order = (int) reader[0];
+            }
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            return false;
         }
 
-        return true;
+        return Order;
     }
 
     // Adds a product to the order based on the order id, product id and quantity

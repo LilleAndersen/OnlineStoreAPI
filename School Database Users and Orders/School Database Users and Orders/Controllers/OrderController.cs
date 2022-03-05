@@ -34,7 +34,7 @@ public class OrderController : Controller
 
     // HTTP Get Request which makes a new order based on user id, address id and total price of order
     [HttpPost("new")]
-    public bool CreateOrder(int id, int addressId, float totalPrice)
+    public int CreateOrder(int id, int addressId, float totalPrice)
     {
         return _orderService.CreateOrder(id, addressId, totalPrice);
     }

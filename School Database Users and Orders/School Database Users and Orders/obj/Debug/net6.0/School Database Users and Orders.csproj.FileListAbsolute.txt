@@ -244,3 +244,44 @@ G:\My Drive\Github Repos\OnlineStoreAPI\fakeskootskoot\School Database Users and
 G:\My Drive\Github Repos\OnlineStoreAPI\fakeskootskoot\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\ref\School Database Users and Orders.dll
 G:\My Drive\Github Repos\OnlineStoreAPI\fakeskootskoot\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.pdb
 G:\My Drive\Github Repos\OnlineStoreAPI\fakeskootskoot\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.genruntimeconfig.cache
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\appsettings.Development.json
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\appsettings.json
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\App.config
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.exe
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\MySqlConnector.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.csproj.AssemblyReference.cache
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.AssemblyInfoInputs.cache
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.AssemblyInfo.cs
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.csproj.CoreCompileInputs.cache
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.MvcApplicationPartsAssemblyInfo.cs
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.MvcApplicationPartsAssemblyInfo.cache
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\staticwebassets.build.json
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\staticwebassets.development.json
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\scopedcss\bundle\School Database Users and Orders.styles.css
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.csproj.CopyComplete
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\ref\School Database Users and Orders.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.pdb
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.dll.config
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.deps.json
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.runtimeconfig.json
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\ref\School Database Users and Orders.dll
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\bin\Debug\net6.0\School Database Users and Orders.pdb
+G:\My Drive\Github Repos\OnlineStoreAPI\OnlineStoreAPI\School Database Users and Orders\School Database Users and Orders\obj\Debug\net6.0\School Database Users and Orders.genruntimeconfig.cache
