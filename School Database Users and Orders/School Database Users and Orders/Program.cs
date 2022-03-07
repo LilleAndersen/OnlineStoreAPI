@@ -18,13 +18,13 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
 // Makes sure a certificate is being used to make sure the api uses HTTPS and therefore is encrypted
-/*builder.WebHost.UseKestrel(serverOptions =>
+builder.WebHost.UseKestrel(serverOptions =>
 {
     serverOptions.Listen(IPAddress.Any, 5000, listenOptions =>
     {
         listenOptions.UseHttps(new X509Certificate2("cert.pfx", "root"));
     });
-}); */
+});
 
 // Describes the CorsPolicy which basically allows any connection from anywhere, the api has a security measure which
 // blocks a bunch of requests from different sources and therefore this is needed to use the api
