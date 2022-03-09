@@ -292,6 +292,7 @@ public class OrderService : IOrderService
         return true;
     }
 
+    // Creates and address based on address name, address line, postal number and country
     public int CreateAddress(string addressName, string addressLine, string postalNumber, string country)
     {
         var Address = new int();
@@ -308,11 +309,13 @@ public class OrderService : IOrderService
         command.Parameters.AddWithValue("@postalNumber", postalNumber);
         command.Parameters.AddWithValue("@country", country);
         
+        // Variables for the SQL statement, you put @user in the SQL statement and define it outside the statement
         addressIdcommand.Parameters.AddWithValue("@addressLine", addressLine);
         addressIdcommand.Parameters.AddWithValue("@addressName", addressName);
         addressIdcommand.Parameters.AddWithValue("@postalNumber", postalNumber);
         addressIdcommand.Parameters.AddWithValue("@country", country);
 
+        // Tries the connection and logs the error if any are caught.
         try
         {
             connection.Open();
